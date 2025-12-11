@@ -1,3 +1,8 @@
+# Fork Notice
+
+- This repository is a fork of `github.com/mickamy/godb`.
+- Module path has been changed to `github.com/KiraboshiSys/godb` for long-term internal use.
+
 # 🐘 godb
 
 > A lightweight database management CLI/Library.
@@ -22,10 +27,10 @@ like Rails’ `db:*` commands.
 
 ```bash
 # Install godb into your project
-go get -tool github.com/mickamy/godb/cmd/godb@latest
+go get -tool github.com/KiraboshiSys/godb/cmd/godb@latest
 
 # or install it globally
-go install github.com/mickamy/godb/cmd/godb@latest
+go install github.com/KiraboshiSys/godb/cmd/godb@latest
 ```
 
 ---
@@ -111,7 +116,7 @@ migrations/000001_create_users.down.sql
 You can also use `godb` as a Go package to manage your database programmatically:
 
 ```bash
-go get github.com/mickamy/godb@latest
+go get github.com/KiraboshiSys/godb@latest
 ```
 
 ### 1. Load the config
@@ -120,7 +125,7 @@ go get github.com/mickamy/godb@latest
 import (
   "log"
 
-  "github.com/mickamy/godb/config"
+  "github.com/KiraboshiSys/godb/config"
 )
 
 cfg, err := config.Load()
@@ -136,7 +141,7 @@ import (
   "errors"
   "log"
 
-  "github.com/mickamy/godb"
+  "github.com/KiraboshiSys/godb"
 )
 
 err := godb.Create(cfg)
@@ -153,7 +158,7 @@ if errors.Is(err, godb.ErrCreateDatabaseExists) {
 import (
   "log"
 
-  "github.com/mickamy/godb"
+  "github.com/KiraboshiSys/godb"
 )
 
 if err := godb.Drop(cfg, false); err != nil {
@@ -170,7 +175,7 @@ import (
   "errors"
   "log"
 
-  "github.com/mickamy/godb"
+  "github.com/KiraboshiSys/godb"
 )
 
 err := godb.Migrate(cfg)
