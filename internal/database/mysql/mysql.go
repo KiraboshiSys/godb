@@ -7,7 +7,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/mickamy/godb/config"
+	"github.com/KiraboshiSys/godb/config"
 )
 
 type MySQL struct {

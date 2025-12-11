@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mickamy/godb/config"
-	"github.com/mickamy/godb/internal/database"
+	"github.com/KiraboshiSys/godb/config"
+	"github.com/KiraboshiSys/godb/internal/database"
 )
 
 var (

@@ -25,5 +25,8 @@ go.work.sum
 # env file
 .env
 
+# IDEs and editors
+.idea/
+
 bin/
 dist/

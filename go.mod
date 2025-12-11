@@ -1,4 +1,4 @@
-module github.com/mickamy/godb
+module github.com/KiraboshiSys/godb
 
 go 1.24.2
 
