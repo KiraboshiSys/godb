@@ -3,7 +3,7 @@ package godb
 import (
 	"fmt"
 
-	"github.com/mickamy/godb/config"
+	"github.com/KiraboshiSys/godb/config"
 )
 
 func Reset(cfg config.Config, force bool) error {

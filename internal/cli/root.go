@@ -6,14 +6,14 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/mickamy/godb/internal/cli/create"
-	"github.com/mickamy/godb/internal/cli/drop"
-	"github.com/mickamy/godb/internal/cli/generate"
-	initPkg "github.com/mickamy/godb/internal/cli/init"
-	"github.com/mickamy/godb/internal/cli/migrate"
-	"github.com/mickamy/godb/internal/cli/reset"
-	"github.com/mickamy/godb/internal/cli/rollback"
-	"github.com/mickamy/godb/internal/cli/version"
+	"github.com/KiraboshiSys/godb/internal/cli/create"
+	"github.com/KiraboshiSys/godb/internal/cli/drop"
+	"github.com/KiraboshiSys/godb/internal/cli/generate"
+	initPkg "github.com/KiraboshiSys/godb/internal/cli/init"
+	"github.com/KiraboshiSys/godb/internal/cli/migrate"
+	"github.com/KiraboshiSys/godb/internal/cli/reset"
+	"github.com/KiraboshiSys/godb/internal/cli/rollback"
+	"github.com/KiraboshiSys/godb/internal/cli/version"
 )
 
 var cmd = &cobra.Command{

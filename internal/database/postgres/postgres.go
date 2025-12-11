@@ -7,7 +7,7 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/mickamy/godb/config"
+	"github.com/KiraboshiSys/godb/config"
 )
 
 type Postgres struct {

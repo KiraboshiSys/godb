@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 
-	"github.com/mickamy/godb/config"
+	"github.com/KiraboshiSys/godb/config"
 )
 
 var Cmd = &cobra.Command{

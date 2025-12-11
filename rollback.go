@@ -10,7 +10,7 @@ import (
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 
-	"github.com/mickamy/godb/config"
+	"github.com/KiraboshiSys/godb/config"
 )
 
 func Rollback(cfg config.Config, step int) error {

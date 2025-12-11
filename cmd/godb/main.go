@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mickamy/godb/internal/cli"
+	"github.com/KiraboshiSys/godb/internal/cli"
 )
 
 func main() {

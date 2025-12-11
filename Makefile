@@ -2,7 +2,7 @@ APP_NAME = godb
 VERSION ?= dev
 BUILD_DIR = bin
 GORELEASER ?= go tool goreleaser
-VERSION_VARIABLE = github.com/mickamy/godb/internal/cli/version/version.version
+VERSION_VARIABLE = github.com/KiraboshiSys/godb/internal/cli/version/version.version
 
 .PHONY: all up up-d down down-v build install uninstall clean version test fmt
 
