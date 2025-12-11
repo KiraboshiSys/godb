@@ -1,35 +1,35 @@
-version: 2
-project_name: godb
-release:
-  github:
-    owner: mickamy
-    name: godb
-  draft: false
-  prerelease: "false"
-
-builds:
-  - id: godb
-    main: ./cmd/godb/main.go
-    goos: [ darwin, linux, windows ]
-    goarch: [ amd64, arm64 ]
-    ldflags:
-      - "-X github.com/mickamy/godb/internal/cli/version/version.version={{.Version}}"
-    binary: godb
-
-archives:
-  - formats: tar.gz
-    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
-    files:
-      - LICENSE
-      - README.md
-
-checksum:
-  name_template: "checksums.txt"
-
-changelog:
-  sort: desc
-  filters:
-    exclude:
-      - '^chore:'
-      - '^docs:'
-      - '^test:'
+#version: 2
+#project_name: godb
+#release:
+#  github:
+#    owner: KiraboshiSys
+#    name: godb
+#  draft: false
+#  prerelease: "false"
+#
+#builds:
+#  - id: godb
+#    main: ./cmd/godb/main.go
+#    goos: [ darwin, linux, windows ]
+#    goarch: [ amd64, arm64 ]
+#    ldflags:
+#      - "-X github.com/KiraboshiSys/godb/internal/cli/version/version.version={{.Version}}"
+#    binary: godb
+#
+#archives:
+#  - formats: tar.gz
+#    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+#    files:
+#      - LICENSE
+#      - README.md
+#
+#checksum:
+#  name_template: "checksums.txt"
+#
+#changelog:
+#  sort: desc
+#  filters:
+#    exclude:
+#      - '^chore:'
+#      - '^docs:'
+#      - '^test:'
